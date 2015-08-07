@@ -1,0 +1,50 @@
+{
+  "name": "to-emitter",
+  "description": "Convert any object into an event-emitter, and emits events with the name of any any method called on the object.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/to-emitter",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/to-emitter",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/to-emitter/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "forward-object": "^0.1.0"
+  },
+  "devDependencies": {
+    "component-emitter": "^1.2.0",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "emit",
+    "emitter",
+    "event",
+    "events",
+    "method",
+    "object",
+    "on",
+    "wrap"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "minimist-events",
+        "object-visit",
+        "collection-visit",
+        "map-visit"
+      ]
+    }
+  }
+}
